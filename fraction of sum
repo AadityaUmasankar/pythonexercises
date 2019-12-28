@@ -1,0 +1,14 @@
+
+a = [1,0,1,-1,-1]
+#b = [3,2,4]
+
+#list = []
+c = len([i for i in a if i > 0])
+d = len([i for i in a if i < 0])
+e = len([i for i in a if i == 0])
+#d = len([i for i,j in zip(a,b) if i < j])
+
+#list.append(c)
+#list.append(d)
+
+print(c / len(a))

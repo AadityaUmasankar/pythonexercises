@@ -1,0 +1,37 @@
+a = [1,2,3,4,5]
+
+b = a.pop(0)
+print(sum(a))
+print(b)
+
+a.append(b)
+print(a)
+
+c = a.pop(0)
+print(sum(a))
+print(c)
+
+a.append(c)
+print(a)
+
+d = a.pop(0)
+print(sum(a))
+print(d)
+
+a.append(d)
+print(a)
+
+
+e = a.pop(0)
+print(sum(a))
+print(e)
+
+a.append(e)
+print(a)
+
+f = a.pop(0)
+print(sum(a))
+print(f)
+
+a.append(f)
+print(a)
